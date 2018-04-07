@@ -151,7 +151,7 @@ public class PeopleController : Controller
 
 ## Limitations
 
-* All partial views must be uniquely named, regarless of which folder they are in. It is recommended that shared partials are stored in Views/Shared/Partials. More specific partials can be stored in Views/{Controller-Name}/Partials but should be named {controller-name}-{partial-name}.hbs. This is due to the fact that handlebars.net loads all partials globally, keyed by a name. Therefore, the view engine loads all partials at startup and throws an exception if there are any duplicates.
+* All partial views must be uniquely named, regardless of which folder they are in. It is recommended that shared partials are stored in Views/Shared/Partials. More specific partials can be stored in Views/{Controller-Name}/Partials but should be named {controller-name}-{partial-name}.hbs. This is due to the fact that handlebars.net loads all partials globally, keyed by a name. Therefore, the view engine loads all partials at startup and throws an exception if there are any duplicates.
 
 * Only data passed to a view as a model is currently supported. Therefore, items added to the ViewBag are not accessible.
 
