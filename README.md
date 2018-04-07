@@ -1,7 +1,7 @@
 # AspNetCore-Handlebars
 
-A handlebars view engine for ASP.NET Core
-Source code contains the View Engine library and an exmaple ASP.NET Core 2.0 Web project
+A handlebars view engine for ASP.NET Core.
+Source code contains the View Engine library and an exmaple ASP.NET Core 2.0 Web project.
 Uses the Handlebars.net library for view rendering: https://github.com/rexm/Handlebars.Net
 
 ## Usage
