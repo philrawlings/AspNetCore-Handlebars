@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Home\index.hbs" />
+    <None Remove="Views\Home\Partials\home-links.hbs" />
+    <None Remove="Views\People\index.hbs" />
+    <None Remove="Views\Shared\layout.hbs" />
+    <None Remove="Views\Shared\Partials\header.hbs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Views\Home\index.hbs" />
+    <Content Include="Views\Home\Partials\home-links.hbs" />
+    <Content Include="Views\People\index.hbs" />
+    <Content Include="Views\Shared\layout.hbs" />
+    <Content Include="Views\Shared\Partials\header.hbs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HandlebarsViewEngine\HandlebarsViewEngine.csproj" />
+  </ItemGroup>
+
+</Project>

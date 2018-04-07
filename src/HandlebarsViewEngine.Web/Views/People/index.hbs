@@ -1,0 +1,21 @@
+<h2>People</h2>
+<div class="people-table">
+    <table cellpadding="10">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each this}}
+            <tr>
+                <td>{{Name}}</td>
+                <td>{{Position}}</td>
+                <td>{{Office}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
